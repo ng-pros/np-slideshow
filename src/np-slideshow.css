@@ -28,12 +28,17 @@ ul.np-slideshow + ul.np-slideshow li:first-child {
 
 ul.np-slideshow + ul.np-slideshow li button {
   color: #FFF;
+  float: left;
   border: none;
   height: 100%;
   cursor: pointer;
   padding: 40px;
   font-size: 60px;
   background: none;
+}
+
+ul.np-slideshow + ul.np-slideshow li:first-child button {
+  float: right;
 }
 
 ul.np-slideshow + ul.np-slideshow li button:focus {

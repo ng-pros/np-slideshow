@@ -74,7 +74,7 @@
         overlayElement.children().height(slideHeight);
 
         function resizeHandler() {
-          var windowWidth = $(window).width();
+          var windowWidth = element.width();
 
           var cumulativeWidth = slideWidth * 3 + slideMargin * 2;
 
