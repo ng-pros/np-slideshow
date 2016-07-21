@@ -59,6 +59,8 @@
           parseInt(scope.npAnimationDuration, 10) :
           0.5;
 
+        element.css('position', 'relative');
+
         var listElement = $(element.children()[0]);
 
         listElement.children().css('width', slideWidth);
@@ -150,7 +152,7 @@
 
         $(window).resize(resizeHandler);
 
-        resizeHandler();
+        setTimeout(resizeHandler, 100);
 
         // var counter = -1;
         // var toggler = true;
