@@ -1,0 +1,35 @@
+{
+  "name": "np-slideshow",
+  "description": "An angularjs slideshow.",
+  "main": [
+    "src/np-slideshow.js",
+    "src/np-slideshow.css"
+  ],
+  "version": "1.0.0-alpha.1",
+  "authors": [
+    "raeef-refai"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "slideshow",
+    "carousel"
+  ],
+  "homepage": "https://github.com/ng-pros/np-slideshow",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "examples",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "jquery": "^3.1.0"
+  }
+}

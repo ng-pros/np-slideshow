@@ -1,0 +1,39 @@
+{
+  "name": "np-slideshow",
+  "version": "1.0.0-alpha.1",
+  "description": "An angularjs slideshow.",
+  "scripts": {
+    "test": "karma start",
+    "dev": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng-pros/np-slideshow.git"
+  },
+  "keywords": [
+    "angular",
+    "slideshow",
+    "carousel"
+  ],
+  "author": "raeef-refai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ng-pros/np-slideshow/issues"
+  },
+  "homepage": "https://github.com/ng-pros/np-slideshow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.2.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jscs-stylish": "^1.4.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}

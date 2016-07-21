@@ -1,0 +1,41 @@
+ul.np-slideshow {
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  white-space: nowrap;
+}
+
+ul.np-slideshow li {
+  display: inline-block;
+}
+
+ul.np-slideshow + ul.np-slideshow {
+  top: 0;
+  position: absolute;
+}
+
+ul.np-slideshow + ul.np-slideshow li {
+  color: #FFF;
+  float: left;
+  position: relative;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+ul.np-slideshow + ul.np-slideshow li:first-child {
+  text-align: right;
+  vertical-align: middle;
+}
+
+ul.np-slideshow + ul.np-slideshow li button {
+  color: #FFF;
+  border: none;
+  height: 100%;
+  cursor: pointer;
+  padding: 40px;
+  font-size: 60px;
+  background: none;
+}
+
+ul.np-slideshow + ul.np-slideshow li button:focus {
+  outline: 0;
+}

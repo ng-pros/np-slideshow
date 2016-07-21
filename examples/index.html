@@ -1,0 +1,27 @@
+<html ng-app="Examples">
+
+<head>
+  <title>np-slideshow examples</title>
+
+  <link rel="stylesheet" href="np-slideshow.css" media="screen" charset="utf-8">
+
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div ng-controller="Ctrl as vm">
+    <div np-slideshow="vm.data" np-slide-margin="20"></div>
+  </div>
+
+  <script type="text/javascript" src="jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="angular/angular.js"></script>
+  <script type="text/javascript" src="np-slideshow.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
