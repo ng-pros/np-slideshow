@@ -59,7 +59,10 @@
           parseInt(scope.npAnimationDuration, 10) :
           0.5;
 
-        element.css('position', 'relative');
+        element.css({
+          position: 'relative',
+          'min-height': slideHeight
+        });
 
         var listElement = $(element.children()[0]);
 
